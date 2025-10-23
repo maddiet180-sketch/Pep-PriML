@@ -1,0 +1,275 @@
+Extracting features for 4gne
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 2o9v
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 4x3h
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 3i5r
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 3dri
+Reading config.colvars file
+  lower wall: 0.3
+  upper wall: 2.3
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 1zhk
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 2puy
+Reading config.colvars file
+  lower wall: 0.8
+  upper wall: 2.8
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 4j73
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 5hfb
+Reading config.colvars file
+  lower wall: 0.9
+  upper wall: 2.9
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 5awu
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 5vwi
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 4ezq
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 3btr
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 5mlo
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 3iqq
+Reading config.colvars file
+  lower wall: 0.3
+  upper wall: 2.3
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 4j45
+Reading config.colvars file
+  lower wall: 0.4
+  upper wall: 2.4
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 5xn3
+Reading config.colvars file
+  lower wall: 0.7
+  upper wall: 2.7
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 5zys
+Reading config.colvars file
+  lower wall: 0.8
+  upper wall: 2.8
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 6nsx
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 6qc0
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 2qbw
+Reading config.colvars file
+  lower wall: 0.5
+  upper wall: 2.5
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 2pr9
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 6dql
+Reading config.colvars file
+  lower wall: 0.9
+  upper wall: 2.9
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 3jzo
+Reading config.colvars file
+  lower wall: 0.6
+  upper wall: 2.6
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 
+Extracting features for 1jp5
+Reading config.colvars file
+  lower wall: 0.3
+  upper wall: 2.3
+Processing 10 colvars.traj files
+Processing 10 sets of ti.* files
+Processing topology file cpx.pdb
+  receptor: chainid 0 
+  ligand: chainid 1
+Processing 10 xtc files
+  1 2 3 4 5 6 7 8 9 10 

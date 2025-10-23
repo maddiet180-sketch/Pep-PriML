@@ -1,0 +1,58 @@
+<MAIN DIR>
+
+rawfeat.log: This is a log file generated while producing the raw feature
+data. The one piece of potentially useful information in this file is the
+lower/upper wall values. More on this below.
+
+1jp5/, 2o9v/,...: These directories contain the 20 raw feature data files for
+the corresponding PDB IDs.
+
+<SUB DIRS>
+
+feat_cv01.dat, feat_cv02.dat,...: These files contain the features that
+were collected as a function of the collecive variable (CV). Think of
+these as histograms. The number corresponds to the simulation number (in
+this case 1-10). The columns are:
+    r_bin:  The lower edge of the r bin. So, the value of 0.175 means that
+            the bin is from 0.175 nm to 0.225 nm.
+    count:  Number of simulation snapshots in this bin.
+    force:  A mean force estimate for the system in this bin. Think of this
+            as the overall force on the peptide. If binding is more favorable,
+            such as for all our systems, you would expect forces that push the
+            peptide into the binding pocket. NOTE: Going back to the upper
+            and lower wall values in the log file, you may want to consider
+            ignoring data outside of these values. For example, 4gne has a
+            lower wall of 0.5 nm and upper wall of 2.5 nm. This means that
+            values of r outside of this range had an additional force added
+            to them to push the system back into the range 0.5-2.5 nm. This
+            will lead to unusual values of the force (and PMF) for values
+            outside this range.
+    pmf:    The potential of mean force (PMF) for the system in this bin. This
+            can be thought of as the a pseudo energy needed to generate the
+            force in the previous column. Again, you may want to consider
+            ignoring values outside of the range provided by lower/upper wall.
+
+feat_time01.dat, feat_time02,dat,...: These files contain features that were
+collected as a function of simulation time. Note that each of these files
+could contain very different numbers of rows depending on how long the
+simulation lasted before reaching the criterion I set. The columns are:
+    step:       The step count of the simulation. So, 500 means that this is
+                500 molecular dynamic steps into the simulation.
+    r:          The value of the collective variable.
+    E_metad_r:  The metadynamics energy. This is the energy corresponding to
+                the biasing force that is pushing the peptide out of the
+                binding pocket.
+    n_cont_CA:  Number of C-alpha contacts between the peptide and the
+                receptor. A contact is defined as anytime a C-alpha from
+                the peptide is within 0.5 nm of a receptor C-alpha.
+    n_cont_heavy:   Same as last column except all heavy atoms.
+    n_saltbr:   Number of salt bridges between the peptide and receptor.
+    n_hbond:    Number of hydrogen bonds between the peptide and receptor.
+    SASA:       Solvent accessible surface area of the peptide. Note that I
+                do not know how useful this will be because the simulations
+                are short and biased, hence, there is little time for the
+                peptide structure to change.
+    RMSD:       Atomistic root-mean square deviation of the peptide structure
+                relative to the first frame.
+    Rg:         Radius of gyration in nm for the peptide structure.
+
