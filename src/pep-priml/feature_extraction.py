@@ -102,7 +102,6 @@ def extract_transition_segment(x, y, mode, window_sizes=np.arange(30, 105, 5)):
         end = min(len(y), peak_i + best_w//2) 
 
         return x[start:end], y[start:end]
-    pass
 
 def extract_fft_features(y, x, mode):
     """Extract FFT-based features for a selected signal segment."""
@@ -133,7 +132,6 @@ def extract_fft_features(y, x, mode):
     peak_power = power[peak_idx]
 
     return peak_freq, peak_power, spec_entropy
-    pass
 
 def extract_features(protein, cv_data, time_data, log_data):
     """Combine all feature extraction steps for one protein trial."""
@@ -199,7 +197,6 @@ def extract_features(protein, cv_data, time_data, log_data):
     }
 
     return features
-    pass
 
 def extract_all_features(config):
     """Top-level function to iterate over proteins and save combined features."""
@@ -246,5 +243,4 @@ def extract_all_features(config):
     std_df = pd.DataFrame(all_std)
     features_df = pd.DataFrame(all_features)
 
-    return (features_df, std_df
-    pass
+    return features_df, std_df
