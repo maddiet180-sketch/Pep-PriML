@@ -4,8 +4,8 @@ from scipy.fft import fft, fftfreq
 from scipy.signal import find_peaks
 from scipy.stats import entropy, skew, kurtosis
 
-from pep_pri_ml.io_utils import load_data
-from pep_pri_ml.processing import moving_average_smooth
+from pep_priml.extraction.io_utils import load_data
+from pep_priml.extraction.processing import moving_average_smooth
 
 def extract_transition_segment(x, y, mode, window_sizes=np.arange(30, 105, 5)):
     """Extract transition region (max, min, eq, peak, well) from a signal."""
