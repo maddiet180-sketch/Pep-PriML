@@ -205,8 +205,8 @@ def extract_all_features(config):
     all_features = []
     all_std = []
     
-    for protein in protein_folders:
-        folder_path = os.path.join(root_dir, protein)
+    for protein in config["proteins"]:
+        folder_path = os.path.join(config["data_root"], protein)
         trial_features = []
     
         for trial in range(1, 11):
